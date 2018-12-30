@@ -6,7 +6,7 @@ Participants: current audience
 
 🎯 Goals/Issues
 
-What is the purpose of a raffle and how is it used as a plugin with Wordpress
+What is the purpose of a raffle and how is it used as a plugin with Wordpress add the image hash to the block chain and reference in WP database
 
     Wordpress Plugin Ticket Raffle
     Blockchain DLT
