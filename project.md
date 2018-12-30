@@ -1,8 +1,9 @@
 Brainstorm: Raffle Wordpress Plugin ("consider all text below a work in progress and example, this is just the start of the idea, for now.")
+
 Date: December 29, 2018
 Facilitator: Daniel J.
 Participants: current audience
-
+link to report:https://aiweb.biz/2018/12/25/project-proposal/
 
 🎯 Goals/Issues
 
