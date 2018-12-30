@@ -1,4 +1,4 @@
-Brainstorm: Raffle Wordpress Plugin ("consider all text below a work in progress and example, this is just the start of the idea")
+Brainstorm: Raffle Wordpress Plugin ("consider all text below a work in progress and example, this is just the start of the idea, for now.")
 Date: December 29, 2018
 Facilitator: Daniel J.
 Participants: current audience
@@ -34,7 +34,8 @@ text = '785004'
 font = ImageFont.truetype(r'/fonts/Arial.ttf', 50)
 width, height = font.getsize(text)
 
-image1 = Image.new('RGBA', (200, 150), (0, 128, 0, 92))
+image1 ="https://github.com/jkwebco/Raffle-Wordpress-Plugin/blob/master/raffel.jpg"
+#image1 = Image.new('RGBA', (200, 150), (0, 128, 0, 92))
 draw1 = ImageDraw.Draw(image1)
 draw1.text((0, 0), text=text, font=font, fill=(255, 128, 0))
 
@@ -42,7 +43,7 @@ image2 = Image.new('RGBA', (width, height), (0, 0, 128, 92))
 draw2 = ImageDraw.Draw(image2)
 draw2.text((0, 0), text=text, font=font, fill=(0, 255, 128))
 
-image2 = image2.rotate(30, expand=1)
+image2 = image2.rotate(90, expand=1)
 
 px, py = 10, 10
 sx, sy = image2.size
