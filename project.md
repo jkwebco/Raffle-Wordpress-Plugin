@@ -1,4 +1,4 @@
-Brainstorm: Raffle Wordpress Plugin
+Brainstorm: Raffle Wordpress Plugin ("consider all text below a work in progress and example, this is just the start of the idea")
 Date: December 29, 2018
 Facilitator: Daniel J.
 Participants: current audience
