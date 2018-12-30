@@ -133,7 +133,7 @@ Get the details on smart contracts and how to add
     Write this stuff back to wordpress database
     Eth hash
     IPFS location
-     Client must have email image for final validation.
+    Client must have email image for final validation.
     There must be a drawing 
     The game will have to have rules and engagement spelled out in the initial 
     purchase the ticket rules
