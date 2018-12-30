@@ -25,7 +25,8 @@ raffel.jpg
 
 each ticket has a number that it is stamped with.
 
-'''
+
+```
 from PIL import Image, ImageFont, ImageDraw
 
 text = '785004'
@@ -47,10 +48,12 @@ sx, sy = image2.size
 image1.paste(image2, (px, py, px + sx, py + sy), image2)
 
 image1.show()
-'''
+
+```
 create smart contract on eth as DAPP
 
----
+
+```
 contract ImageInfo{
    mapping(address=>Image[]) private images;
    struct Image{
@@ -61,14 +64,16 @@ contract ImageInfo{
        images[msg.sender].push(Image(hash,ipfs)); //
    }
 }
----
+
+```
 
 code for running python on wordpress
 A simple example to print Hello World! in a WordPress plugin
 
 Create the plugin, register a shortcode:
 
-***
+
+```
 
 <?php # -*- coding: utf-8 -*-
 /* Plugin Name: Python embedded */
@@ -96,15 +101,18 @@ function embed_python( $attributes )
 
     return $read;
 }
-***
+
+```
 Now you can use that shortcode in the post editor with [python] or [python file="filename.py"].
 
 Put the Python scripts you want to use into the same directory as the plugin file. You can also put them into a directory and adjust the path in the shortcode handler.
 
 Now create a complex Python script like this:
-***
+
+```
 print("Hello World!")
-***
+
+```
 And that’s all. Use the shortcode, and get this output:
 
 On the console, I ran
