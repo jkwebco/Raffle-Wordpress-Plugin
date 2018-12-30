@@ -22,6 +22,7 @@ What is the purpose of a raffle and how is it used as a plugin with Wordpress ad
 
 The typical  ticket that is issued to the client
 raffel.jpg
+![alt text](https://github.com/jkwebco/Raffle-Wordpress-Plugin/blob/master/raffel.jpg)
 
 each ticket has a number that it is stamped with.
 
