@@ -39,7 +39,8 @@ enter image description here
 
 And getting the unique hash from the image
 
-```import hashlib
+```
+import hashlib
  
 hasher = hashlib.md5()
 with open('sample-out07891234.png', 'rb') as afile:
