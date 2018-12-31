@@ -1,6 +1,12 @@
+Objective: To create a unique image with a series of numbers
+
+with a unique image hash and save it on the DLT.
+
+
 1) Create image with text on it rotated -90 degrees
 
 Question: how to break the mold and keep original safe?
+
 Answer: add some random noise to the image.
 
 1) Now each hash is different or unique and only you recieve the orignal image, so nobody can regenerate the original image.
