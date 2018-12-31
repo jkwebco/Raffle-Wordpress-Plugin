@@ -48,3 +48,4 @@ with open('sample-out07891234.png', 'rb') as afile:
     hasher.update(buf)
 print(hasher.hexdigest())
 ```
+![alt text](https://github.com/jkwebco/Raffle-Wordpress-Plugin/blob/master/image/sample-out07891234.png)
