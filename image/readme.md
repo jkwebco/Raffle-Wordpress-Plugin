@@ -3,6 +3,7 @@ Objective: To create a unique image with a series of numbers
 with a unique image hash and save it on the DLT.
 
 
+
 1) Create image with text on it rotated -90 degrees
 
 Question: how to break the mold and keep original safe?
