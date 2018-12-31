@@ -4,7 +4,7 @@ add the image hash to the block chain and reference in WP database
 
 
 Link to initial Brainstorm 
-https://aiweb.bit.ai/pwl/TX532k8FHle59oNj
+![a text](https://aiweb.bit.ai/pwl/TX532k8FHle59oNj)
 
 
 
