@@ -1,4 +1,4 @@
-Objective: To create a unique image with a series of numbers  
+**Objective:** To create a unique image with a series of numbers  
 with a unique image hash and save it on the DLT.
 
 
