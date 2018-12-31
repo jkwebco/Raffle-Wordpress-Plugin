@@ -35,3 +35,15 @@ img.show()
 
 enter image description here
 ```
+
+
+And getting the unique hash from the image
+
+```import hashlib
+ 
+hasher = hashlib.md5()
+with open('sample-out07891234.png', 'rb') as afile:
+    buf = afile.read()
+    hasher.update(buf)
+print(hasher.hexdigest())
+```
