@@ -10,7 +10,9 @@ Of course each ticket number has to be assigned and image is sent to prospective
 Store Hash, Store Number, send image to claimer.
 
 ```
-There is function random_noise() from the scikit-image package. It has several builtin noise patterns, such as gaussian, s&p (for salt and pepper noise), possion and speckle.
+There is function random_noise() from the scikit-image package. 
+It has several builtin noise patterns, such as gaussian, s&p 
+(for salt and pepper noise), possion and speckle.
 
 Below I show an example of how to use this method
 
