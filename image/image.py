@@ -14,6 +14,22 @@ image1=Image.open("raffle1.jpg")
 #draw1 = ImageDraw.Draw(image1)
 #draw1.text((0, 0), text=text, font=font, fill=(255, 128, 0))
 
+
+# convert PIL Image to ndarray
+im_arr = np.asarray(image1)
+
+# random_noise() method will convert image in [0, 255] to [0, 1.0],
+# inherently it use np.random.normal() to create normal distribution
+# and adds the generated noised back to image
+noise_img = random_noise(im_arr, mode='gaussian', var=0.05**2)
+noise_img = (255*noise_img).astype(np.uint8)
+
+image1 = Image.fromarray(noise_img)
+
+
+
+
+
 image2 = Image.new('RGBA', (width, height), (0, 0, 128, 92))
 draw2 = ImageDraw.Draw(image2)
 
