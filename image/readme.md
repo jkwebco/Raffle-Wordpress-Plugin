@@ -12,7 +12,8 @@ Answer: add some random noise to the image.
 1) Now each hash is different or unique and only you recieve the orignal image,   
 so nobody can regenerate the original image.
 
-2) Of course each ticket number has to be assigned and image is sent to prospective winner.
+2) Of course each ticket number has to be assigned and image is sent to prospective   
+winner.
 
 3) Store Hash, Store Number, send image to claimer.
 
