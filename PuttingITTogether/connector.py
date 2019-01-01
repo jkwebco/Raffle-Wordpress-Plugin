@@ -6,20 +6,20 @@
     from mysql.connector import Error
     try:
        mySQLconnection = mysql.connector.connect(host='localhost',
-                                 database='python_db',
-                                 user='pynative',
-                                 password='pynative@#29')
-       sql_select_Query = "select * from python_developers"
+                                 database='wordpress',
+                                 user='username',
+                                 password='password')
+       sql_select_Query = "select * from wooraffle_tickets_customer_to_tickets"
        cursor = mySQLconnection .cursor()
        cursor.execute(sql_select_Query)
        records = cursor.fetchall()
-       print("Total number of rows in python_developers is - ", cursor.rowcount)
-       print ("Printing each row's column values i.e.  developer record")
+       print("Total number of rows is - ", cursor.rowcount)
+       print ("Printing each row's column values - ")
        for row in records:
-           print("Id = ", row[0], )
-           print("Name = ", row[1])
-           print("JoiningDate  = ", row[2])
-           print("Salary  = ", row[3], "\n")
+           print("ticket_number = ", row[0], )
+           print("ticket_hash = ", row[1])
+           print("ticket_numb  = ", row[2])
+           print("ticket_file  = ", row[3], "\n")
        cursor.close()
        
     except Error as e :
