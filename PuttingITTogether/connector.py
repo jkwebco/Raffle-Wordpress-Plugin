@@ -1,4 +1,4 @@
- ```
+
  from mysql.connector import (connection)
 
 cnx = connection.MySQLConnection(user='scott', password='password',
@@ -6,4 +6,4 @@ cnx = connection.MySQLConnection(user='scott', password='password',
                                  database='employees')
 cnx.close()
 
-```
+
