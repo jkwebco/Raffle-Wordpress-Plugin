@@ -1,4 +1,6 @@
 
+#change this to fit you needs
+
 
     import mysql.connector
     from mysql.connector import Error
