@@ -2,30 +2,23 @@
 #change this to fit you needs
 
 
-    import mysql.connector
-    from mysql.connector import Error
-    try:
-       mySQLconnection = mysql.connector.connect(host='localhost',
-                                 database='wordpress',
-                                 user='username',
-                                 password='password')
-       sql_select_Query = "select * from wooraffle_tickets_customer_to_tickets"
-       cursor = mySQLconnection .cursor()
-       cursor.execute(sql_select_Query)
-       records = cursor.fetchall()
-       print("Total number of rows is - ", cursor.rowcount)
-       print ("Printing each row's column values - ")
-       for row in records:
-           print("ticket_number = ", row[0], )
-           print("ticket_hash = ", row[1])
-           print("ticket_numb  = ", row[2])
-           print("ticket_file  = ", row[3], "\n")
-       cursor.close()
-       
-    except Error as e :
-        print ("Error while connecting to MySQL", e)
-    finally:
-        #closing database connection.
-        if(mySQLconnection .is_connected()):
-            connection.close()
-            print("MySQL connection is closed")
+#!/usr/bin/python
+import MySQLdb
+
+db = MySQLdb.connect(host="localhost",    # your host, usually localhost
+                     user="username",         # your username
+                     passwd="passwd",  # your password
+                     db="wordpress")        # name of the data base
+
+# you must create a Cursor object. It will let
+#  you execute all the queries you need
+cur = db.cursor()
+
+# Use all the SQL you like
+cur.execute("SELECT * FROM wp_wooraffle_tickets_customer_to_tickets")
+
+# print all the first cell of all the rows
+for row in cur.fetchall():
+    print row[0],row[1],row[2],row[3],row[4],row[5]
+
+db.close()
