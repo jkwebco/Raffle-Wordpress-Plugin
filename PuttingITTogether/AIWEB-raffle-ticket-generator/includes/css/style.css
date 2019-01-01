@@ -1,0 +1,923 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+body{margin:0; font-family: 'Open Sans', sans-serif; font-size:14px;}
+
+
+
+.rtg-container{width:100%;}
+
+
+
+.accordion.ui-accordion.ui-widget.ui-helper-reset {margin: 5px 15px 2px;}
+
+
+
+.rtg-accordion h3{font-size:18px; margin-bottom:0px;background:#FFFFFF none repeat scroll 0 0; padding:10px 0 10px 20px; color:#484848; border-bottom:0px solid #0073aa;font-weight:normal;margin-top:10px;}
+
+
+
+.rtg-accordion h4{font-size:14px; margin-top:0; color:#484848;}
+
+
+
+.inputdiv span {
+
+
+
+    margin-left: 20px;
+
+
+
+    color: #d94541;
+
+
+
+	font-style:italic;
+
+
+
+}
+
+
+
+.mainsection{width:100%; margin:0 auto;}
+
+
+
+.raffle{width:100%;  background:#fff none repeat scroll 0 0; background-size:cover; float:left;}
+
+
+
+.whitesection{background:#fff; padding:20px; margin:0px; border-bottom:2px solid #eef1f8;} 
+
+
+
+.raffle .inputdiv {margin: 12px 0;}
+
+
+
+.inputdiv input {margin-left: 0;}
+
+
+
+.inputdiv  input[type="text"] {height: 30px; padding: 0 10px; border:2px solid #d4d4d4;}
+
+
+
+.inputdiv  input[type="text"]:focus{border:2px solid #EBBD0A;}
+
+
+
+.raffle input[type="submit"]{font-size:16px; color:#fff; width:100px; height:34px; border:none;border-radius:2px; 
+
+
+
+/*background: #64922f; background: -moz-linear-gradient(top,  #64922f 0%, #416c10 100%); background: -webkit-linear-gradient(top,  #64922f 0%,#416c10 100%); background: linear-gradient(to bottom,  #64922f 0%,#416c10 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64922f', endColorstr='#416c10',GradientType=0 );
+
+
+
+*/
+
+
+
+}
+
+
+.export-header th {
+
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 0px !important; }
+	table.export-table{width:100%;}
+
+
+
+.raffle input[type="submit"]:hover{}
+
+
+
+.inputdiv ul{
+
+
+
+	list-style:none;
+
+
+
+	list-style-type:none;
+
+
+
+}
+
+
+
+.inputdiv ul li{
+
+
+
+	display: inline-flex;
+
+
+
+	list-style:none;
+
+
+
+	list-style-type:none;
+
+
+
+	margin:3px;
+
+
+
+}
+
+
+
+.inputdiv ul li.sel{
+
+
+
+	border: 3px solid #777;
+
+
+
+}
+
+
+
+.inputdiv ul li img{
+
+
+
+	width:100px;
+
+
+
+	border:0px;
+
+
+
+	cursor:pointer;
+
+
+
+}
+
+
+
+newsticker-demo { 
+
+
+
+width:510px; 
+
+
+
+padding:5px 5px 0; 
+
+
+
+font-family:Verdana,Arial,Sans-Serif;
+
+
+
+font-size:12px;
+
+
+
+margin:20px auto;
+
+
+
+}
+
+
+
+#newsticker-demo a { text-decoration:none; }
+
+
+
+#newsticker-demo img { border: 2px solid #FFFFFF; }
+
+
+
+#newsticker-demo .title {
+
+
+
+text-align:center;
+
+
+
+font-size:14px;
+
+
+
+font-weight:bold;
+
+
+
+padding:5px;
+
+
+
+}
+
+
+
+.newsticker-jcarousellite { width:500px; }
+
+
+
+.newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; }
+
+
+
+.newsticker-jcarousellite .thumbnail { float:left; width:110px; }
+
+
+
+.newsticker-jcarousellite .info { float:right; width:190px; }
+
+
+
+.newsticker-jcarousellite .info span.cat { display: block; font-size:10px; color:#808080; }
+
+
+
+.clear { clear: both; }
+
+
+
+#winner p {
+
+
+
+    color: #D30F17;
+
+
+
+	font-size:18px;
+
+
+
+}
+
+
+
+.winner-top {
+
+
+
+    margin: auto;
+
+
+
+    padding: 20px;
+
+
+
+    max-width: 500px;
+
+
+
+}
+
+
+
+
+
+.winner-top h1 {
+
+
+
+    font-family: sans-serif;
+
+
+
+    font-size: 40px;
+
+
+
+}
+
+
+
+#winner-name {
+
+
+
+	display:none;
+
+
+
+	width:600px;
+
+
+
+	margin:auto;
+
+
+
+	text-align:center;
+
+
+
+	
+
+
+
+}
+
+
+
+#newsticker-demo {
+
+
+
+    margin: 15px auto;
+
+
+
+    padding: 20px;
+
+
+
+    text-align: center;
+
+
+
+    width: 500px;
+
+
+
+}
+
+
+
+#winner-name h1 {
+
+
+
+	font-size:50px;
+
+
+
+	color:red;
+
+
+
+}
+
+
+
+#winner-name p {
+
+
+
+	font-size:18px;
+
+
+
+	color:#222121;
+
+
+
+}
+
+
+
+.winner-header {
+
+
+
+	background:#0073aa;
+
+
+
+	color:#fff;
+
+
+
+}
+
+
+
+.winner-column {
+
+
+
+	background:#FFF;
+
+
+
+	color:#000;
+
+
+
+	box-shadow:0 0 10px #808080;
+
+
+
+}
+
+
+
+.export-header {
+
+
+
+	background:#0073aa;
+
+
+
+	color:#fff;
+
+
+
+}
+
+
+
+.export-content {
+
+
+
+	background:#FFF;
+
+
+
+	color:#000;
+
+
+
+	box-shadow:0 0 10px #808080;
+
+
+
+}
+
+
+
+.section.section-text h4.heading {
+
+
+
+    font-size: 24px;
+
+
+
+    color: #C2272D;
+
+
+
+}
+
+
+
+.postbox {
+
+
+
+    padding: 15px;
+
+
+
+    box-sizing: border-box;
+
+
+
+}
+
+
+
+.explain a {
+
+
+
+    color: #C2272D;
+
+
+
+    text-decoration: none;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+#time-remaining span {
+
+
+
+    color: #ff0000;
+
+
+
+    font-size: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#time-remaining {
+
+
+
+    font-size: 16px;
+
+
+
+    color: #000000;
+
+
+
+    text-align: center;
+
+
+
+    text-transform: uppercase;border-top: 1px solid #ededed;
+
+
+
+border-bottom: 1px solid #ededed;
+
+
+
+margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+#time-remaining-start span {
+
+
+
+    color: #ff0000;
+
+
+
+    font-size: 30px;
+
+
+
+}
+
+
+
+#time-remaining-start {
+
+
+
+    font-size: 16px;
+
+
+
+    color: #000000;
+
+
+
+    text-align: center;
+
+
+
+    text-transform: uppercase;border-top: 1px solid #ededed;
+
+
+
+border-bottom: 1px solid #ededed;
+
+
+
+margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+#time-winner span {
+
+
+
+    color: #ff0000;
+
+
+
+    font-size: 30px;
+
+
+
+}
+
+
+
+#time-winner {
+
+
+
+    font-size: 16px;
+
+
+
+    color: #000000;
+
+
+
+    text-align: center;
+
+
+
+    text-transform: uppercase;border-top: 1px solid #ededed;
+
+
+
+border-bottom: 1px solid #ededed;
+
+
+
+margin-top: 10px;
+
+
+
+}
+
+#time-winner-selection span {
+
+
+
+    color: #ff0000;
+
+
+
+    font-size: 30px;
+
+
+
+}
+
+
+
+#time-winner-selection {
+
+
+
+    font-size: 16px;
+
+
+
+    color: #000000;
+
+
+
+    text-align: center;
+
+
+
+    text-transform: uppercase;border-top: 1px solid #ededed;
+
+
+
+border-bottom: 1px solid #ededed;
+
+
+
+margin-top: 10px;
+
+
+
+}
+
+img.ui-datepicker-trigger {
+
+	cursor:pointer;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+.ui-accordion .ui-accordion-content{box-sizing:border-box;}
+
+.rtg35-wrap{display:table;
+
+width:100%;}
+
+.rtg35-spacing{    border-spacing: 10px;
+
+    border-collapse: separate;
+
+}
+
+
+
+h1.rtg35-title{font-size:36px;  line-height:130%;} 
+
+.rtg35-blockrow{display:table-row;}
+
+.rtg35-half{display:table-cell;width:50%;}
+
+.rtg35-block20{display:table-cell;width:20%;}
+
+.rtg35-block25{display:table-cell;width:25%;}
+
+.rtg35-block33{display:table-cell;width:33%;}
+
+.rtg35-block35{display:table-cell;width:35%;}
+
+.rtg35-block40{display:table-cell;width:40%;}
+
+.rtg35-block65{display:table-cell;width:65%;}
+
+.rtg35-block66{display:table-cell;width:66.6%;}
+
+.rtg35-block60{display:table-cell;width:60%;}
+
+.rtg35-block75{display:table-cell;width:75%;}
+
+
+
+.rtg35-inner10{padding:10px;box-sizing:border-box;}
+
+.rtg35-inner30{padding:30px;box-sizing:border-box;}
+
+.rtg35-inner5{padding:5%;box-sizing:border-box;}
+
+.rtg35-block{display:inline-block;vertical-align:middle;}
+
+
+
+.rtg35-v-top{vertical-align:top;}
+
+.rtg35-v-middle{vertical-align:middle;}
+
+.rtg35-v-bottom{vertical-align:bottom;}
+
+
+
+@media all and (max-width: 768px)
+
+{
+
+	
+
+}
+
+
+
+@media all and (max-width: 480px)
+
+{
+
+	.rtg35-block20, .rtg35-block25, .rtg35-block33, .rtg35-block35, .rtg35-block40, .rtg35-block65, .rtg35-block66, .rtg35-block60, .rtg35-block75, .rtg35-block
+
+	{
+
+		display:block;width:100%;
+
+	}
+
+	h1.rtg35-title{font-size:24px; line-height:130%;} 
+
+
+
+
+
+    table.winner-page th{display:none;}
+
+	table.winner-page td{display:block;width:100%;}
+
+	table.winner-page td:nth-of-type(1):before { content: "Order Id: ";font-weight:bold;}
+
+	table.winner-page td:nth-of-type(2):before { content: "Raffle Name: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(3):before { content: "Winner Name: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(4):before { content: "Ticket Number: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(5):before { content: "Picked: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(6):before { content: "Winner type: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(7):before { content: "Prize: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(8):before { content: "Special Comments: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(9):before { content: "Shortcode: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(10):before { content: "Date: ";font-weight:bold; }
+
+	table.winner-page td:nth-of-type(11):before { content: "Delete Winner: ";font-weight:bold; }
+
+	.winner-column{box-shadow:0px 0px 0px;}
+
+	img.rtg-logo{width:100%;height:auto;max-width:594px !important;}
+
+	img.rtg-clear-winner-butt{width:100%;height:auto;margin:0 auto;}
+
+	table.winner-page{border-spacing: 6px;}
+
+	table.winner-page tr:nth-of-type(odd) { 
+
+  background: #f4f4f4; 
+
+}
+
+
+
+table.export-table th{display:none;}
+
+	table.export-table td{display:block;width:100%;}
+
+	table.export-table td:nth-of-type(1):before { content: "Category Id: ";font-weight:bold;}
+
+	table.export-table td:nth-of-type(2):before { content: "Category Name: ";font-weight:bold; }
+
+	table.export-table td:nth-of-type(3):before { content: "Number Of Tickets: ";font-weight:bold; }
+
+	table.export-table td:nth-of-type(4):before { content: "Number Of Orders: ";font-weight:bold; }
+
+	table.export-table td:nth-of-type(5):before { content: "Csv Export: ";font-weight:bold; }
+
+	table.export-table td:nth-of-type(6):before { content: "Print Tickets: ";font-weight:bold; }
+
+    table.export-table tr:nth-of-type(odd) { 
+
+  background: #f4f4f4; 
+
+}
+
+
+
+    table.export-table table  td:nth-of-type(1):before { content: "Order Number: ";font-weight:bold;}
+
+	table.export-table table td:nth-of-type(2):before { content: "Product Name: ";font-weight:bold; }
+
+	table.export-table table td:nth-of-type(3):before { content: "Ticket Number: ";font-weight:bold; }
+
+	table.export-table table td:nth-of-type(4):before { content: "Name: ";font-weight:bold; }
+
+	table.export-table table td:nth-of-type(5):before { content: "Email Address: ";font-weight:bold; }
+
+	table.export-table table td:nth-of-type(6):before { content: "Phone: ";font-weight:bold; }
+
+	table.export-table table td:nth-of-type(7):before { content: "Address: ";font-weight:bold; }
+
+
+
+}
+
+@media all and (max-width: 768px)
+
+{
+
+ .rtg35-block25 img.backups{width:100%;}
+
+ h1.rtg35-title{font-size:24px; line-height:130%;} 
+
+}
