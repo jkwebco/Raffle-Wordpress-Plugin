@@ -10,5 +10,4 @@ Putting it all together...
    - [x] Send an email of ticket
    - [x] Woocommerce
 
-
-
+the actual plugin file started is AIWEB-raffle-ticket-generator.zip
