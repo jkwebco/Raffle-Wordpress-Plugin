@@ -1,7 +1,7 @@
 # Raffle-Wordpress-Plugin
 Creating a Raffle Ticket plugin for Wordpress 
 add the image hash to the block chain and reference in WP database
-
+-This is intended for arts and entertainment only.
 
 Link to initial Brainstorm 
 [Link](https://aiweb.bit.ai/pwl/TX532k8FHle59oNj)
