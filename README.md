@@ -13,3 +13,4 @@ Link to initial Brainstorm
 - The aiweb directory is the start of the [wordpress plugin](https://github.com/jkwebco/Raffle-Wordpress-Plugin/tree/master/aiweb).
 
 
+![alt text](https://github.com/jkwebco/Raffle-Wordpress-Plugin/blob/master/image/sample-out07891234.png)
