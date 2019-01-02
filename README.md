@@ -8,6 +8,8 @@ Link to initial Brainstorm
 
 
 
-- The Image directory is where the [**tickets**](https://github.com/jkwebco/Raffle-Wordpress-Plugin/tree/master/image) are made, each ticket will have a unique number and unique hash that cannot be duplicated.
+- The Image directory is where the [**tickets**](https://github.com/jkwebco/Raffle-Wordpress-Plugin/tree/master/image) are made, each ticket (image) will have a unique number and unique hash that cannot be duplicated. Unless you copy it and post it to the public. Keep it in a safe place and when the draw happens you will be eligable to verify the image by sending it in.
 
 - The aiweb directory is the start of the [wordpress plugin](https://github.com/jkwebco/Raffle-Wordpress-Plugin/tree/master/aiweb).
+
+
